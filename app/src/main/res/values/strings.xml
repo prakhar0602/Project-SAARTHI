@@ -2,6 +2,18 @@
     <string name="app_name">SAARTHI</string>
     <string name="phone_number">Phone Number</string>
     <string name="_91">+91</string>
-    <string name="Password" >Password</string>
+    <string name="Password">Password</string>
     <string name="saarthi">SAARTHI</string>
+    <string name="next">NEXT</string>
+    <string name="dob">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign up</string>
+    <string name="rc">RC</string>
+    <string name="insurance">Insurance</string>
+    <string name="next1">NEXT</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+
 </resources>
