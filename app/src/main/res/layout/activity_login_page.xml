@@ -9,12 +9,13 @@
 
     <Button
         android:id="@+id/button"
+        android:onClick="to_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/layout_button_signin"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,4 +138,19 @@
          app:layout_constraintHorizontal_bias="0.031"
          app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
          app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="to_register"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:text="@string/new_user"
+        android:background="@color/white"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
 </android.support.constraint.ConstraintLayout>

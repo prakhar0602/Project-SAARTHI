@@ -15,5 +15,10 @@
     <string name="next1">NEXT</string>
     <string name="register">REGISTER</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="new_user">New user ?</string>
+    <string name="enter_pickup_location">Enter Pickup Location</string>
+    <string name="enter_drop_location">Enter_Drop_location</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="sign_in">Sign In</string>
 
 </resources>
