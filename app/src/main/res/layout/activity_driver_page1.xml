@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Taxi"
+    tools:context=".Driver_Page_1">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/signuptitle"
+       android:text="@string/sign_up"
+       android:textSize="35sp"
+       android:textStyle="bold"
+       android:textColor="@color/white"
+       android:gravity="center"
+       android:layout_margin="25dp"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/signuptitle"
+        android:background="#20ffffff"
+        android:hint="@string/username"
+        android:textColorHint="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Phonenumber"
+        android:layout_below="@id/username"
+        android:background="#20ffffff"
+        android:hint="@string/phonenumber"
+        android:textColorHint="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@id/Phonenumber"
+        android:background="#20ffffff"
+        android:hint="@string/gender"
+        android:textColorHint="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DOB"
+        android:layout_below="@id/gender"
+        android:background="#20ffffff"
+        android:hint="@string/dob"
+        android:textColorHint="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtn"
+        android:text="@string/next"
+        android:layout_below="@id/DOB"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        />
+
+
+
+
+</RelativeLayout>
